@@ -7,6 +7,7 @@ This is a repository that contains examples of short React challange projects in
 -   [rd-03-memory](https://github.com/jordanholtdev/react-drills/tree/main/rd-02-click): basic memory game where users recall the location of a number
 -   [rd-04-tree](https://github.com/jordanholtdev/react-drills/tree/main/rd-04-tree): basic application that traverses a tree structure and renders the results
 -   [rd-05-ip](https://github.com/jordanholtdev/react-drills/tree/main/rd-05-ip): application that fetches and displays the IP information of a visitor
+-   [rd-06-us](https://github.com/jordanholtdev/react-drills/tree/main/rd-06-us): this application allows users to search the UnSplash API for images
 
 ## Install locally
 
