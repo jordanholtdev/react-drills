@@ -8,6 +8,7 @@ This is a repository that contains examples of short React challange projects in
 -   [rd-04-tree](https://github.com/jordanholtdev/react-drills/tree/main/rd-04-tree): basic application that traverses a tree structure and renders the results
 -   [rd-05-ip](https://github.com/jordanholtdev/react-drills/tree/main/rd-05-ip): application that fetches and displays the IP information of a visitor
 -   [rd-06-us](https://github.com/jordanholtdev/react-drills/tree/main/rd-06-us): this application allows users to search the UnSplash API for images
+- [rd-07-counter](https://github.com/jordanholtdev/react-drills/tree/main/rd-07-counter): this application allows users to count by a user specified increment
 
 ## Install locally
 
