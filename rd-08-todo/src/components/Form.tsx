@@ -1,21 +1,22 @@
 import { useState } from 'react';
 
 const Form = (props: { onSubmit: Function }) => {
-    const [draft, setDraft] = useState('Cook dinner');
+    const [draft, setDraft] = useState('');
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        props.onSubmit(draft);
+        if (draft.length !== 0) props.onSubmit(draft);
+        setDraft('');
     };
     return (
         <form onSubmit={handleSubmit}>
-            <label>
-                Enter Todo:
-                <input
-                    value={draft}
-                    onChange={(e) => setDraft(e.target.value)}
-                />
-            </label>
+            <input
+                placeholder="+ Add task"
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                minLength={2}
+                required={true}
+            />
             <button>Add</button>
         </form>
     );
