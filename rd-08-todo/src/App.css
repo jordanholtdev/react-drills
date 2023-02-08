@@ -1,0 +1,59 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+    align-items: center;  
+  }
+
+.complete p {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.complete button {
+    background-color: red;
+}
+
+
+.incomplete button {
+    background-color: green;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+    margin-left: 1em;
+}
