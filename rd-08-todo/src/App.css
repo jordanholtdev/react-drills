@@ -24,9 +24,23 @@
     display: flex;
     padding: 1em;
     border-bottom: 1px solid;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;  
   }
+
+.complete p {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.complete button {
+    background-color: red;
+}
+
+
+.incomplete button {
+    background-color: green;
+}
 
 .read-the-docs {
     color: #888;
@@ -38,4 +52,8 @@ ul {
 
 li {
   list-style: none;
+}
+
+button {
+    margin-left: 1em;
 }
